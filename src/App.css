@@ -1,0 +1,239 @@
+.container{
+  background-image: url(./pattern-background-desktop.svg);
+  
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position-y: -390px;
+  margin:0px;
+  background-color:  #E0E8FF;
+ 
+ 
+}
+.sub-container{
+  border-radius:5%;
+  border-top-right-radius:5% !important;
+  width:30vw;
+  margin: auto;
+ position: relative;
+ top: 8vh;
+ padding-bottom: 3%;
+  background-color: white;
+}
+.Hero{
+border-top-right-radius: 5%;
+border-top-left-radius: 5%;
+width: 100%;
+}
+.text{
+  padding-top:2%;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.text p{
+  width: 75%;
+  margin: auto;
+  size: .1rem;
+  color: #777A8A;
+}
+.annualplan{
+ 
+  background-color: #F8F9FE;
+  width:75%;
+  border-radius: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 8%;
+ display: flex;
+ 
+}
+.firstchild{
+  flex: 1;padding: .5rem;
+  
+}
+.secondchild{
+  flex: 2; 
+  align-items: center;
+  padding: 1rem;
+}
+.secondchild div{
+  font-weight: bolder;
+}
+.thirdchild{
+  flex: 1;
+  align-items: center;
+  padding: 1.5rem;
+  color: #726BCC;
+}
+.payment{
+  width: 75%;
+ 
+  background-color: #766CF1;
+  margin:auto;
+  height: auto;
+  text-align: center;
+  margin-top: 5%;
+  border-radius: 10px;
+  height: 40px;
+  color: white;
+  padding-top: 2%;
+  box-shadow: 0px 10px 30px #766CF1;
+}
+.cancel_order{
+  
+  width: 75%;
+  color: #505876;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+@media screen and (max-width:275px) {
+  .sub-container{
+    width:100vw;
+    overflow: scroll;
+  }
+  .text h1{
+    font-size: 1rem;
+  }
+  .annualplan{
+    width:100%;
+    display: inline-block;
+  }
+  .payment{
+    width:100%;
+    padding-top: 3%;
+  }
+  .secondchild {
+   display: inline-block;
+  
+  }
+  .firstchild{
+   display: inline-block;
+  }
+  .thirdchild{
+    display:inline-block;
+  }
+  .cancel_order{
+    margin-bottom:8%;
+  }
+  
+}
+@media screen and (min-width:275px) and (max-width:325px) {
+  .sub-container{
+    width:90vw;
+  }
+  .annualplan{
+    width: 100%;
+  }
+  .payment{
+    width: 90%;
+    padding-top: 3%;
+  }
+  .secondchild {
+    flex:1;
+    font-size: .8rem;
+  }
+  .firstchild{
+    flex:1;
+  }
+  .thirdchild{
+    flex:1;
+  }
+  .cancel_order{
+    margin-bottom:8%;
+  }
+}
+
+
+@media screen and (min-width:325px) and (max-width:530px) {
+  .sub-container{
+    width:80vw;
+  }
+  .annualplan{
+    width: 90%;
+  }
+  .payment{
+    width: 90%;
+    padding-top: 3%;
+  }
+  .secondchild {
+    flex:3;
+    font-size: .8rem;
+  }
+  .firstchild{
+    flex:1;
+  }
+  .thirdchild{
+    flex:1;
+  }
+  .cancel_order{
+    margin-bottom:8%;
+  }
+}
+
+@media screen and (min-width:530px ) and (max-width:815px) {
+  .sub-container{
+    width:65vw;
+  }
+  .annualplan{
+    width: 90%;
+    
+  }
+  .text{
+    padding-top:2%;
+  }
+  .payment{
+    width: 90%;
+    padding-top: 3%;
+  }
+  .secondchild {
+    flex:2;
+  
+  }
+  .firstchild{
+    flex:1;
+  }
+  .thirdchild{
+    flex:1;
+  }
+  .cancel_order{
+    margin-bottom:8%;
+  }
+  
+}
+@media screen and (min-width:815px ) and (max-width:1150px) {
+  .sub-container{
+    width:40vw;
+  }
+  .annualplan{
+    width: 90%;
+    
+  }
+  .payment{
+    width: 90%;
+    padding-top: 3%;
+  }
+  .secondchild {
+    flex:2;
+  
+  }
+  .firstchild{
+    flex:1;
+  }
+  .thirdchild{
+    flex:1;
+  }
+  .cancel_order{
+    margin-bottom:2%;
+  }
+  
+}
+
+@media  screen and (max-height:700px) {
+  .container{
+    overflow-y: scroll;
+  }
+}
